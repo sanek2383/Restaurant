@@ -1,2 +1,0 @@
-# Restaurant
-React+Vite+TS
