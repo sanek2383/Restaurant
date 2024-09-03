@@ -1,6 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import { HelmetProvider } from "react-helmet-async"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "../public/css/bootstrap.min.css"
+import '../public/scss/bootstrap.scss'
 import "./App.css"
+import "./utils/main.js"
 import Home from "./components/Home"
 import About from "./components/About"
 import Booking from "./components/Booking"
@@ -15,7 +19,7 @@ import Footer from "./components/Footer"
 
 
 
-function App() {
+const App: React.FC = () => {
   return (
     <HelmetProvider>
       <Router>
