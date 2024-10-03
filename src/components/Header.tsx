@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-// import menuImage from '../assets/img/menu-7.jpg';
+
 
 const Header: React.FC = () => {
 
@@ -7,15 +7,15 @@ const Header: React.FC = () => {
     <>
       <div className="container-xxl position-relative p-0">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-          <a
-            href=""
+          <Link
+            to="/"
             className="navbar-brand p-0"
           >
             <h1 className="text-primary m-0">
               <i className="fa fa-utensils me-3"></i>Restoran
             </h1>
             {/* <img src={menuImage} alt="Logo"/> */}
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

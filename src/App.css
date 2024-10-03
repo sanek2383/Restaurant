@@ -1,6 +1,7 @@
 /********** Template CSS **********/
 #root{
   margin: 0 auto;
+  background: white;
 }
 
 :root {
@@ -241,7 +242,7 @@
   position: relative;
   height: 100%;
   min-height: 500px;
-  background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.jpg);
+  background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../src/assets/img/video.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -379,43 +380,24 @@
 
 
 /*** Testimonial ***/
-.testimonial-carousel .owl-item .testimonial-item,
-.testimonial-carousel .owl-item.center .testimonial-item * {
-  transition: .5s;
+
+.testimonial-item:hover{
+  background: #fea116 !important;
+  color:#FFFFFF;
+  .text-primary{
+    color: #000 !important;
+  }
+}
+.slick-dots li button:before{
+  font-size: 16px !important;
+  color:#fea116 !important;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-item {
-  background: var(--primary) !important;
-  border-color: var(--primary) !important;
+@media (max-width: 576px) {
+  .container-sm, .container {
+      max-width: 540px;
+  }
 }
-
-.testimonial-carousel .owl-item.center .testimonial-item * {
-  color: var(--light) !important;
-}
-
-.testimonial-carousel .owl-dots {
-  margin-top: 24px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.testimonial-carousel .owl-dot {
-  position: relative;
-  display: inline-block;
-  margin: 0 5px;
-  width: 15px;
-  height: 15px;
-  border: 1px solid #CCCCCC;
-  border-radius: 15px;
-  transition: .5s;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: var(--primary);
-  border-color: var(--primary);
-}
-
 
 /*** Footer ***/
 .footer .btn.btn-social {
