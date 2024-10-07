@@ -12,7 +12,7 @@ const Header: React.FC = () => {
             className="navbar-brand p-0"
           >
             <h1 className="text-primary m-0">
-              <i className="fa fa-utensils me-3"></i>Restoran
+              <i className="fa fa-utensils me-3"></i>Restaurant
             </h1>
             {/* <img src={menuImage} alt="Logo"/> */}
           </Link>
@@ -57,12 +57,12 @@ const Header: React.FC = () => {
               </div>
                 <Link className="nav-item nav-link" to="/contact">Contact</Link>
             </div>
-            <a
-              href=""
+            <Link
+              to="/booking"
               className="btn btn-primary py-2 px-4"
             >
               Book A Table
-            </a>
+            </Link>
           </div>
         </nav>
       </div>

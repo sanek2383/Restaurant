@@ -1,7 +1,8 @@
 import { Helmet } from "react-helmet-async"
 import TestimonialSlider from "../utils/TestimonialSlider"
 
-export default function testimonial() {
+const Testimonial: React.FC = () => {
+  
   return (
     <>
       <Helmet>
@@ -33,3 +34,5 @@ export default function testimonial() {
     </>
   )
 }
+
+export default Testimonial

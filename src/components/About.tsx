@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async"
 import Counter from "../utils/Counter"
 
-export default function about() {
+const About: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -59,7 +59,7 @@ export default function about() {
               </h5>
               <h1 className="mb-4">
                 Welcome to <i className="fa fa-utensils text-primary me-2"></i>
-                Restoran
+                Restaurant
               </h1>
               <p className="mb-4">
                 Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
@@ -99,7 +99,7 @@ export default function about() {
                 </div>
               <a
                 className="btn btn-primary py-3 px-5 mt-2"
-                href=""
+                href="#"
               >
                 Read More
               </a>
@@ -139,19 +139,19 @@ export default function about() {
                 <div className="d-flex justify-content-center mt-3">
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
@@ -175,19 +175,19 @@ export default function about() {
                 <div className="d-flex justify-content-center mt-3">
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
@@ -211,19 +211,19 @@ export default function about() {
                 <div className="d-flex justify-content-center mt-3">
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
@@ -247,19 +247,19 @@ export default function about() {
                 <div className="d-flex justify-content-center mt-3">
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a
                     className="btn btn-square btn-primary mx-1"
-                    href=""
+                    href="#"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
@@ -280,3 +280,5 @@ export default function about() {
     </>
   )
 }
+
+export default About

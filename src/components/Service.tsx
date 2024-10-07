@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 
-export default function service (){
+const Service: React.FC = () => {
 
     return(
         <>
@@ -63,3 +63,5 @@ export default function service (){
         </>
     )
 }
+
+export default Service

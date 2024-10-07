@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ReservationForm = () => {
+const ReservationForm: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",

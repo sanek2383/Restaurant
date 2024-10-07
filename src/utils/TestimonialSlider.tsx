@@ -48,10 +48,10 @@ const TestimonialSlider: React.FC = () => {
     autoplaySpeed: 3000,
     responsive: [
         {
-          breakpoint: 650, // Ширина экрана 650 пикселей или меньше
+          breakpoint: 650, 
           settings: {
-            slidesToShow: 1, // Показывать 1 карточку
-            slidesToScroll: 1 // Прокручивать по одной карточке
+            slidesToShow: 1, 
+            slidesToScroll: 1 
           }
         }
       ]

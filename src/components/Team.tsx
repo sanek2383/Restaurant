@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 
-export default function team (){
+const Team: React.FC = () => {
 
     return(
         <>
@@ -32,9 +32,9 @@ export default function team (){
                             <h5 className="mb-0">Full Name</h5>
                             <small>Designation</small>
                             <div className="d-flex justify-content-center mt-3">
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -46,9 +46,9 @@ export default function team (){
                             <h5 className="mb-0">Full Name</h5>
                             <small>Designation</small>
                             <div className="d-flex justify-content-center mt-3">
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -60,9 +60,9 @@ export default function team (){
                             <h5 className="mb-0">Full Name</h5>
                             <small>Designation</small>
                             <div className="d-flex justify-content-center mt-3">
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -74,9 +74,9 @@ export default function team (){
                             <h5 className="mb-0">Full Name</h5>
                             <small>Designation</small>
                             <div className="d-flex justify-content-center mt-3">
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -88,3 +88,5 @@ export default function team (){
         </>
     )
 }
+
+export default Team
