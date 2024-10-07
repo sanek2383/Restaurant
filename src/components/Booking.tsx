@@ -28,7 +28,7 @@ const Booking: React.FC = () => {
                 type="button"
                 className="btn-play"
                 data-bs-toggle="modal"
-                data-src="#"
+                data-src=""
                 data-bs-target="#videoModal"
               >
                 <span></span>
@@ -67,7 +67,7 @@ const Booking: React.FC = () => {
               <div className="ratio ratio-16x9">
                 <iframe
                   className="embed-responsive-item"
-                  src="#"
+                  src=""
                   id="video"
                   allowFullScreen
                   allow="autoplay"

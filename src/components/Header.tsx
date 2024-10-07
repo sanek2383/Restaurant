@@ -14,7 +14,6 @@ const Header: React.FC = () => {
             <h1 className="text-primary m-0">
               <i className="fa fa-utensils me-3"></i>Restaurant
             </h1>
-            {/* <img src={menuImage} alt="Logo"/> */}
           </Link>
           <button
             className="navbar-toggler"
